@@ -1,0 +1,100 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ede8e8;
+    background-image: url('back\ \(1\).png');
+    margin: 20px;
+}
+
+/* Header styles */
+header {
+    color: #000000;
+    font-size:50px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h3{
+    padding:30px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #bee9e8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #003554;
+}
+
+
+
+/* Form styles */
+form {
+    margin-bottom: 10px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select{
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #110156ba;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background-color: #70d6ff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0582ca;
+}
+
+/* Results container styles */
+#careerResults {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #eeeef400;
+    border-radius: 4px;
+    background-color: #eadede00;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
+
+
+.interest{
+    font-size: 20px;
+}

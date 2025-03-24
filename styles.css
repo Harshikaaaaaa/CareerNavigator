@@ -1,0 +1,54 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles with background image */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('back\ \(1\).png'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Course container styles */
+.course {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.course ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course ul li {
+    margin-bottom: 8px;
+}
+
+.course ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.course ul li a:hover {
+    text-decoration: underline;
+}
+
